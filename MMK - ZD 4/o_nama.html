@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #bd1212;
+        }
+        form {
+          height: auto;
+    width: 300px;
+    margin: 50px auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	background-color: #ff0000;
+}
+
+fieldset {
+  height: auto;
+    border: 3px solid #ffe600;
+    padding: 15px;
+    border-radius: 10px;
+	color: #050705;
+	text-align: center;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2600ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:red;
+}
+
+input:focus,
+select:focus {
+    border: 2px solid green;
+    outline: none;
+}
+        </style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="meni.html">Meni</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="o_nama.html">O nama</a></li>
+        </ul>
+    </nav>
+    <p style="color: blue;">Mladi i samopouzdani poduzetnici.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>Zabranjeno <em>kopiranje</em> </p>
+    <p>Mozete biti <sub>kaznjeni</sub></p>
+    <p>Ovo je nasa jedina<sup>sluzbena</sup> stranica</p>
+    <p>Budite <span style="color:rgb(255, 0, 157)">pozdravljeni.</span> </p>
+    <form action="">
+      <fieldset>
+          <legend>Unesi podatke!</legend>
+
+          <label for="username">ime:</label>
+          <input type="text" id="username" name="username" placeholder="Unesite ime" >
+
+          <label for="password">lozinka:</label>
+          <input type="password" id="password" name="password" placeholder="Unesite lozinku" >
+
+          <label for="email">e-pošta:</label>
+          <input type="email" id="email" name="email" placeholder="Unesite e-poštu" >
+    
+    <label for="age">godine:</label>
+          <input type="text" id="age" name="age" placeholder="Unesite godine">
+
+          <label for="gender">Spol:</label>
+          
+          <select id="gender" name="gender">
+            <option value="male">Muški</option>
+            <option value="female">Ženski</option>
+            <option value="other">Ostalo</option>
+          </select> 
+          <label for="gender">jeste li sigurni?:</label>
+          <input type="text" id="age" name="age" placeholder="?">
+          <datalist id="gender" name="gender">
+          <option value="m">
+          <option value="f">
+          <option value="other">
+          </datalist>
+
+          <button type="submit">Pošalji obrazac</button>
+    <button type="reset">Osvježi stranicu</button>
+      </fieldset>
+  </form>
+</body>
+</html>
