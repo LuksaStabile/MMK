@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="tablice.css">
+      <style>
+         ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;
+         }
+         li {
+         float: left;
+         }
+         li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         }
+         li a:hover {
+         background-color: #bd1212;
+         }
+         #zadatak1 h1 {
+         color: rgb(248, 3, 3);
+         border-bottom: 3px double currentColor;
+         }
+         #zadatak1 h1, #zadatak1 table {
+         width: 340px;
+         }
+         #zadatak1 table {
+         border-collapse: collapse;
+         }
+         #zadatak1 th {
+         font-size: 20px;
+         font-weight: bold;
+         background-color: rgb(255, 251, 11);
+         text-transform: uppercase;
+         color: rgb(255, 0, 0);
+         text-align: center;
+         height: 40px;
+         }
+         #zadatak1 td {
+         border: 1px solid black;
+         }
+         #zadatak1 tr:nth-child(2n) {
+         background-color: whitesmoke;
+         }
+         /* --------------------------------------------------------------------- */
+         #zadatak2 {
+         margin: 100px 0;
+         width: 400px;
+         height: 400px;
+         }
+         #zadatak2 table {
+         width: 200px;
+         height: 200px;
+         float: left;
+         border: 5px solid black;
+         box-sizing: border-box;
+         }
+         #crveni1 {
+         background-color: red;
+         border-radius: 100px 100px 0 100px;
+         }
+         #zuti1 {
+         background-color: rgb(255, 230, 0);
+         border-radius: 1000px 0px 100px 0;
+         }
+         #zuti2 {
+         background-color: rgb(255, 230, 0);
+         border-radius: 1000px 0 100px  100px ;
+         }
+         #crveni2 {
+         background-color: rgb(255, 6, 6);
+         border-radius: 0 100px 30px 100px;
+         }
+         img {
+         float: right;
+         }
+         p.clear {
+         clear: left;
+         }
+      </style>
+   </head>
+   <body style="background-image: url('assets/img/123.jpg');"></body>
+   <nav>
+      <ul>
+         <li><a href="index.html">Homepage</a></li>
+         <li><a href="meni.html">Meni</a></li>
+         <li><a href="kontakt.html">Kontakt</a></li>
+         <li><a href="o_nama.html">O nama</a></li>
+      </ul>
+   </nav>
+   <p>Krumpirici
+   <p> Hamburgeri
+   <p>  Pizze
+   <p>   Tortilje
+   <p>  Sokovi:</p>
+   <ol start="1.">
+      <li>fanta</li>
+      <br>
+      <li>cola</li>
+      <br>
+      <li>sprite</li>
+   </ol>
+   <section id="zadatak2">
+      <table id="crveni1"></table>
+      <table id="zuti1"></table>
+      <table id="zuti2"></table>
+      <table id="crveni2"></table>
+   </section>
+   <section id="zadatak1">
+   <h1>Pappaonica cjenik</h1>
+   <table>
+      <thead>
+         <tr>
+            <th colspan="4">CIJENE</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>1.</td>
+            <td colspan="2">Hamburger</td>
+            <td>5e</td>
+         </tr>
+         <tr>
+            <td>2.</td>
+            <td colspan="2">Cheeseburger</td>
+            <td>5.5e</td>
+         </tr>
+         <tr>
+            <td>2.1 meni</td>
+            <td colspan="2">+sok + krumpirići</td>
+            <td>8e</td>
+         </tr>
+         <tr>
+            <td>3.</td>
+            <td colspan="2">Kebab u tortilji</td>
+            <td>5e</td>
+         </tr>
+         <tr>
+            <td>4.</td>
+            <td colspan="2">Kebab u lepinji</td>
+            <td>5e</td>
+         </tr>
+         <tr>
+            <td>5.</td>
+            <td colspan="2">krumpirići</td>
+            <td>2e</td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>5.1</td>
+            <td>+umak</td>
+            <td>0.70e</td>
+         </tr>
+         <tr>
+            <td>dobar tek</td>
+            <td>$</td>
+            <td rowspan="2">$</td>
+         </tr>
+      </tbody>
+   </table>
+   <br>
+   <br>
+   <img src="assets/img/hamb.jpg" width="120" height="140">
+   <p class="clear">Popust za domaće!</p>
+   <p><strong>Plaćanje karticom i gotovinom.</strong></p>
+   </body>
+</html>
