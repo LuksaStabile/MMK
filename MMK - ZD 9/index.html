@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+         body  {
+         background-image: url('assets/img/123.jpg');
+         background: url("assets/img/123.jpg");
+         background-repeat: no-repeat;
+         background-size: 1450px 1500px;
+         }
+         h1 {
+         font-family:'StabileLuksa';
+         src: url(assets/fonts/StabileLuksa.ttf);
+         }
+         ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;
+         }
+         li {
+         float: left;
+         }
+         li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         }
+         li a:hover {
+         background-color: #bd1212;
+         }
+         div.fixed {
+         position: fixed;
+         bottom: 0;
+         right: 0;
+         width: 100px;
+         border: 3px solid #ad2121;
+         }
+         div.relative {
+         position: relative;
+         top: 0px;
+         left: 670px;
+         border: 3px solid #ad2121;
+         }
+         @media only screen and (max-width: 1000px) {
+         body {
+         background-image: url(assets/img/nuggets.avif);
+         }
+         }
+         p:active {
+         background-color: rgb(247, 247, 9);
+         }
+         div {
+         width: 100px;
+         height: 100px;
+         background: rgb(255, 11, 11);
+         transition: width 1.5s, height 1.5s, transform 1.5s;
+         }
+         div:hover {
+         width: 100px;
+         height: 100px;
+         transform: rotate(10deg);
+         }
+      </style>
+   </head>
+   <body>
+      <nav>
+         <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="meni.html">Meni</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="o_nama.html">O nama</a></li>
+         </ul>
+      </nav>
+      <h1 style="color: #bd1212;font-size:600%;">Pappaonica</h1>
+      <h2 style="color: #000000;font-size:200%;">Fast food</h2>
+      <p style="color: #000000;font-size:200%;">Dobrodošli na našu stranicu! Nadam se da ste gladni!</p>
+      <strong style="color: #000000;font-size:200%;">Besplatna dostava</strong>
+      <p> Javite nam se!</p>
+      <div class="fixed">
+         Napravio: Lukša Stabile
+      </div>
+      <div class="relative">
+         Najbrža dostava u gradu!
+      </div>
+      <br>
+      <br>
+      <button type="button" onclick="alert('Ako si gladan naruci!')">Kliknki me ako si gladan!</button>
+      <br>
+      <br>
+      <p>Naša inspiracija: <a href="https://youtu.be/fJL9ej4TxUY?si=Yc2CecOdBKxFP9g8">Pukovnik Sanders</a></p>
+      <br>
+      <iframe src="assets/img/kfc.jpg" height="600" width="610" title="Sanders"></iframe>
+   </body>
+</html>

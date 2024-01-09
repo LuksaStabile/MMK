@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+         body  {
+         background-image: url('assets/img/123.jpg');
+         background: url("assets/img/123.jpg");
+         background-repeat: no-repeat;
+         background-size: 1450px 2670px;
+         }
+         ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;
+         }
+         li {
+         float: left;
+         }
+         li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         }
+         li a:hover {
+         background-color: #bd1212;
+         }
+         form {
+         height: auto;
+         width: 300px;
+         margin: 50px auto;
+         padding: 20px;
+         border-radius: 10px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+         background-color: #ff0000;
+         }
+         fieldset {
+         height: auto;
+         border: 3px solid #ffe600;
+         padding: 15px;
+         border-radius: 10px;
+         color: #050705;
+         text-align: center;
+         }
+         legend {
+         font-size: 24px;
+         font-weight: bold;
+         }
+         label {
+         display: block;
+         margin: 10px 0;
+         }
+         input,
+         select {
+         width: 100%;
+         padding: 8px;
+         margin: 5px 0;
+         box-sizing: border-box;
+         }
+         button {
+         background-color: #2600ff;
+         color: white;
+         padding: 10px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         }
+         button:hover {
+         background-color:red;
+         }
+         input:focus,
+         select:focus {
+         border: 2px solid green;
+         outline: none;
+         }
+         #demo {color: rgb(5, 5, 197);}
+         .test {color: rgb(42, 247, 42);} 
+         p {color: rgba(255, 0, 0, 0.73);} 
+         @media only screen and (max-width: 1000px) {
+         body {
+         background-image: url(assets/img/nuggets.avif);
+         }
+         }
+         h1:hover {
+         background-color: rgb(90, 4, 77);
+         }
+         div {
+         width: 200px;
+         height: 80px;
+         background: #ff0707;
+         transition: width 1.5s;
+         }
+         #div1 {transition-timing-function: 1s }
+         #div2 {transition-timing-function: 1s }
+         #div3 {transition-timing-function: 1s}
+         #div4 {transition-timing-function: 1s }
+         div:hover {
+         width: 500px;
+         }
+         div > p {
+  background-color: rgb(6, 255, 6);
+}
+
+div:nth-child(2) {
+  background: rgb(255, 128, 0);
+}
+
+li:nth-child(2) {
+  background: rgb(255, 183, 0);
+}
+
+:nth-child(3) {
+  background: rgb(255, 243, 18);
+}
+      </style>
+      <nav>
+         <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="meni.html">Meni</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="o_nama.html">O nama</a></li>
+         </ul>
+      </nav>
+   <body>
+      <div id="div1">Mladi i samopouzdani poduzetnici</div>
+      <br>
+      <div id="div2">Uvijek svježe, uvijek freško</div>
+      <br>
+      <div id="div3">Godina osnutka 2018.</div>
+      <br>
+      <div id="div4">Za suradnju nam se obratite mailom</div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <iframe src="https://giphy.com/embed/IgOEWPOgK6uVa" width="480" height="245" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <p><a href="https://giphy.com/gifs/life-up-IgOEWPOgK6uVa">via GIPHY</a></p>
+      <br>
+      <br>
+      <p> Sa nuggetsima nikada nećete pogriješiti </p>
+      <a href="default.asp"><img src="assets/img/nugs.jpg"  style="width:242px;height:242px;"></a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1>Ajde nemoj se sramiti i klikni na neki od predmeta sa slike naseg radnog okruženja!</h1>
+      <br>
+      <img src="assets/img/radno mjesto.jpg" alt="radno mjesto" usemap="#nase radno okruzenje" width="400" height="379">
+      <map name="nase radno okruzenje">
+         <area shape="rect" coords="34,44,270,350" alt="Computer" href="assets/img/komp.jpg">
+         <area shape="rect" coords="290,172,333,250" alt="Phone" href="assets/img/ajfon.jpg">
+         <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="assets/img/498-4989028_download-high-resolution-coffee-beans-png-clipart.png">
+      </map>
+      <form action="">
+         <fieldset>
+            <legend>Unesi podatke!</legend>
+            <label for="username">ime:</label>
+            <input type="text" id="username" name="username" placeholder="Unesite ime" >
+            <label for="password">lozinka:</label>
+            <input type="password" id="password" name="password" placeholder="Unesite lozinku" >
+            <label for="email">e-pošta:</label>
+            <input type="email" id="email" name="email" placeholder="Unesite e-poštu" >
+            <label for="age">godine:</label>
+            <input type="text" id="age" name="age" placeholder="Unesite godine">
+            <label for="gender">Spol:</label>
+            <select id="gender" name="gender">
+               <option value="male">Muški</option>
+               <option value="female">Ženski</option>
+               <option value="other">Ostalo</option>
+            </select>
+            <label for="gender">jeste li sigurni?:</label>
+            <input type="text" id="age" name="age" placeholder="?">
+            <datalist id="gender" name="gender">
+               <option value="m">
+               <option value="f">
+               <option value="other">
+            </datalist>
+            <button type="submit">Pošalji obrazac</button>
+            <button type="reset">Osvježi stranicu</button>
+         </fieldset>
+      </form>
+   </body>
+</html>
